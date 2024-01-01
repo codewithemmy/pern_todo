@@ -13,8 +13,6 @@ app.listen(3000, () => {
 });
 
 //ROUTES
-
-//generate get
 app.get("", async (req, res) => {
   res.json("thank you");
 });
